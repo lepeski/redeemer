@@ -1,0 +1,17 @@
+{
+  "name": "redeemer-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-kms": "^3.484.0",
+    "@aws/kms-signer": "^1.1.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5"
+  }
+}
